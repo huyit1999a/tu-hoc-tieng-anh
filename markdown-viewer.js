@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to fetch and display the markdown file
     async function fetchMarkdown() {
         try {
-            const response = await fetch('path/to/your/file.md'); // Replace with the path to your markdown file
+            const response = await fetch('lo-trinh.md'); // Replace with the path to your markdown file
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
